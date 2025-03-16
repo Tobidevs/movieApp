@@ -1,5 +1,5 @@
 import MovieCard from "../components/MovieCard";
-
+import "../css/Favorites.css";
 function Favorite() {
   return (
     <div>
