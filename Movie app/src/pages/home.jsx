@@ -27,7 +27,7 @@ function Home() {
     e.preventDefault();
     if (!searchQuery.trim()) return;
     if (loading) return;
-    
+
     setLoading(true);
     try {
       const searchResults = await searchMovies(searchQuery);
